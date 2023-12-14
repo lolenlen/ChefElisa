@@ -1,11 +1,7 @@
-
 document.querySelectorAll('.js-home-button')
   .forEach((button) => {
     button.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+      window.location.href = "index.html";
     });
   });
 
